@@ -42,4 +42,3 @@ for entry in feed.entries:
         repo.git.commit('-m', f'Add post: {entry.title}')
 
 # 변경 사항을 깃허브에 푸시
-repo.git.push()
